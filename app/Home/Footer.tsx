@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { Box, Text, Button, Heading } from "@chakra-ui/react";
 import YT from "../icons/YT";
