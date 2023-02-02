@@ -5,15 +5,18 @@ import Courses from './Courses'
 import Header from './Header'
 import Navbar from './Navbar'
 import PrgOfStd from './PrgOfStd'
-
+import { ChakraProvider } from "@chakra-ui/react";
 export default function Page() {
   return (
     <>
    {/* <Navbar /> */}
+   <ChakraProvider>
    <Header />
    <About />
    <PrgOfStd />
    <Courses />
+   </ChakraProvider>
+  
     </>
   )
 }
