@@ -13,27 +13,27 @@ export default function Courses() {
   const content = [
     {
       heading: "Web 3.0 (Blockchain) and Metaverse Specialization",
-      body: "This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences.",
+      body: "This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse.......",
     },
     {
       heading: "Cloud-Native Computing Specialization",
-      body: "The Cloud-Native Computing Specialization focuses on Containers, Kubernetes, and CDK for Kubernetes. ",
+      body: "The Cloud-Native Computing Specialization focuses on Containers, Kubernetes, and CDK for Kubernetes...... ",
     },
     {
       heading: "Artificial Intelligence (AI) and Deep Learning Specialization",
-      body: "The AI and Deep Learning specialization focuses on building and deploying intelligent APIs using OpenAI models and building custom Deep Learning Tensorflow models.",
+      body: "The AI and Deep Learning specialization focuses on building and deploying intelligent APIs using..........",
     },
     {
       heading: "Ambient Computing and IoT Specialization",
-      body: "The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter Protocol, and Embedded Devices.",
+      body: "The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories..........",
     },
     {
       heading: "Genomics and Bioinformatics Specialization",
-      body: "Genomics is the study of the total genetic makeup of individual organisms, and how this genetic information is structured, functions, and has evolved; bioinformatics encompasses a diverse range of analytical methods and tools applied to genomic data. This Specialization focuses on performing complex bioinformatics analysis using the most essential Python libraries and applications.",
+      body: "Genomics is the study of the total genetic makeup of individual organisms, and how this genetic...........",
     },
     {
       heading: "Network Programmability and Automation Specialization",
-      body: "More than ever, network engineers are finding it challenging to complete their duties entirely manually. Network automation is now crucial due to new protocols, technologies, delivery models, and the requirement for enterprises to become more adaptable and agile. This course teaches network engineers how to automate systems with code using a variety of technologies and tools, including Linux, Python, APIs, and Git",
+      body: "More than ever, network engineers are finding it challenging to complete their duties entirely ...........",
     },
   ];
   return (
@@ -54,15 +54,15 @@ export default function Courses() {
           one or more specializations consisting of two courses each:
         </Text>
       </Box>
-      <Box display={'grid'} gridTemplateColumns='1fr 1fr 1fr' gap={'30px'} mt='50px'>
+      <Box display={'grid'} gridTemplateColumns='1fr 1fr 1fr' rowGap={'70px '} columnGap={'30px'} mt='50px'>
         {content.map((el) => {
           return (
             <Card>
               <CardHeader>
-                <Heading size="md">{el.heading}</Heading>
+                <Heading size="md" fontSize={'30px'}>{el.heading}</Heading>
               </CardHeader>
               <CardBody>
-                <Text>
+                <Text fontSize={'25px'}>
                   {el.body}
                 </Text>
                 <Button
