@@ -3,6 +3,8 @@ import React from "react";
 
 import { Box, Text, Button, Heading } from "@chakra-ui/react";
 import Headert from "./../icons/Header";
+import Image from "next/image";
+// import header from './../../assets'
 export default function Header() {
   return (
     <Box
@@ -15,6 +17,7 @@ export default function Header() {
       mt={'150px'}
     >
       <Box>
+        {/* <Image src={header}/> */}
         <Heading color={"white"} >
           Presidential Initiative for Artificial Intelligence and Computing
           (PIAIC)
